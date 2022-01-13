@@ -7,6 +7,7 @@ int main()
 {
     vector<int>n;
 
+    cout<<"Various Operations on Vector :"
     n.assign(9,1);
     cout<<"The contents are :";
     for(int a=0; a < n.size(); a++)
@@ -31,4 +32,6 @@ int main()
 
     n.clear();
     cout<<n.size();
+
+    return 0;
 }
